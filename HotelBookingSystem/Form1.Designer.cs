@@ -201,7 +201,6 @@
             button3.TabIndex = 16;
             button3.Text = "Form 2";
             button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
             // 
             // label5
             // 

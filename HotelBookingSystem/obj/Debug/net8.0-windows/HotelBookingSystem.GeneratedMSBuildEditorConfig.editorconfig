@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelBookingSystem
-build_property.ProjectDir = C:\Users\Sopheng\source\repos\OOAD_Y4\Semester_II\HotelBookingSystem\HotelBookingSystem\
+build_property.ProjectDir = E:\codeStudy\C#\Hotel\HotelBooking\HotelBookingSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

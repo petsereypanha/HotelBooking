@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sopheng\\source\\repos\\OOAD_Y4\\Semester_II\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {}
+    "E:\\codeStudy\\C#\\Hotel\\HotelBooking\\HotelBookingSystem\\HotelBookingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sopheng\\source\\repos\\OOAD_Y4\\Semester_II\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {
+    "E:\\codeStudy\\C#\\Hotel\\HotelBooking\\HotelBookingSystem\\HotelBookingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sopheng\\source\\repos\\OOAD_Y4\\Semester_II\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
+        "projectUniqueName": "E:\\codeStudy\\C#\\Hotel\\HotelBooking\\HotelBookingSystem\\HotelBookingSystem.csproj",
         "projectName": "HotelBookingSystem",
-        "projectPath": "C:\\Users\\Sopheng\\source\\repos\\OOAD_Y4\\Semester_II\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
-        "packagesPath": "C:\\Users\\Sopheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sopheng\\source\\repos\\OOAD_Y4\\Semester_II\\HotelBookingSystem\\HotelBookingSystem\\obj\\",
+        "projectPath": "E:\\codeStudy\\C#\\Hotel\\HotelBooking\\HotelBookingSystem\\HotelBookingSystem.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\codeStudy\\C#\\Hotel\\HotelBooking\\HotelBookingSystem\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Sopheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,16 +38,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
